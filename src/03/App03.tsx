@@ -34,7 +34,6 @@ export default function App2() {
             flag ={e.flag}
             population = {e.population}/>
         )
-        
     });
 
     return(

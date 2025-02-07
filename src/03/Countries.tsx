@@ -6,21 +6,21 @@ const ListCountries = [
         name : 'RCA',
         capital: 'Bangui',
         flag: 'bleu,blanc,vert,jaune,rouge',
-        population: 'centrafricaine'
+        population: '5M'
 
     },
     {
         name : 'Senegal',
         capital: 'dakar',
         flag: 'vert.jaune,rouge',
-        population: 'senegalaise'
+        population: '8M'
 
     },
     {
         name : 'Gabon',
         capital: 'libreville',
         flag: 'vert,jaune,bleu',
-        population: 'gabonaiise'
+        population: '7M'
 
     }
 ]
@@ -28,11 +28,7 @@ const ListCountries = [
 export default function App2() {
     const features = ListCountries.map(function (e,index) {
         return(
-            <Student key={index} 
-            name={e.name}
-            capital={e.capital}
-            flag ={e.flag}
-            population = {e.population}/>
+            <Student key={index} name={e.name} capital={e.capital} flag ={e.flag} population = {e.population}/>
         )
         
     });
