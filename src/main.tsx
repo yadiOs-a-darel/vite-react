@@ -1,12 +1,11 @@
 import './01/style.css'
 import { createRoot } from 'react-dom/client'
-
-import App02 from './02/App02.tsx'
+import Countries from './03/Countries.tsx'
 
 
 
 createRoot(document.getElementById('root')!).render(
   
-    <App02 />
+    <Countries />
   
 )

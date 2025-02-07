@@ -1,11 +1,11 @@
 
 
-interface AppProps {
+interface App02Props {
     pays: string
     ville: string
 }
 
-export default function Capitale(props:AppProps) {
+export default function Capitale(props:App02Props) {
 
     return (
         <div>
